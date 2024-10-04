@@ -18,8 +18,6 @@
 _texto iTALICA_
 ***NEGRITAS ITALICA***
 
-![Descripcion de miagen ejemplo] (https://www.google.com/url?sa=i&url=https%3A%2F%2Faguacatec.es%2Fanimar-tus-imagenes-con-un-efecto-3d%2F&psig=AOvVaw1zItP8iX_P-wf8zmGmokdR&ust=1728088357900000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKijtdq884gDFQAAAAAdAAAAABAJ)
-
-
+![Descripcion de miagen ejemplo] (https://kinsta.com/es/wp-content/uploads/sites/8/2020/10/tipos-de-archivos-de-imagen.png)
 
 
