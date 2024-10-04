@@ -1,1 +1,2 @@
-
+#Obketivos 
+Ser un pro 
