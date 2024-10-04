@@ -18,6 +18,6 @@
 _texto iTALICA_
 ***NEGRITAS ITALICA***
 
-![Descripcion de miagen ejemplo](https://kinsta.com/es/wp-content/uploads/sites/8/2020/10/tipos-de-archivos-de-imagen.png)
+![Descripcion de miagen ejemplo] (https://kinsta.com/es/wp-content/uploads/sites/8/2020/10/tipos-de-archivos-de-imagen.png)
 
 
