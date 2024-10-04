@@ -15,8 +15,8 @@
 4. Cuatro 
 
 **Negritas**
-_ texto iTALICA_
-*** NEGRITAS ITALICA 
+_texto iTALICA_
+***NEGRITAS ITALICA***
 
 
 
