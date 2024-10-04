@@ -1,2 +1,1 @@
-*Objetivos*
-Ser un pro 
+*Objetivos 
