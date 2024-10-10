@@ -64,9 +64,61 @@ int main()
 	int numero1 = 5; 
 
 	// 2. El ejercicio 2 esta mal ya que su identificador tiene el caracter @ y estso no se pueden usar en identificadores como ! y otros más 
-	float valor = 3.1416; 
+	float valor = 3.1416f; 
 
 	// 3. El ejercicio 3 esta mal porque se esta usando double y otra vez doblue como identificador y esta es una palabra reservada es como poner int int=5; debe ser otra y no estas que estan reservadas 
 	double ejemplo = 9.81; //  use "ejemplo" como identidficador en vez de double que esta reservada.
 
-	// 4
+	// 4 El ejercio 4 esta mal poruqe son dos caracteres y se estan usando char se podria usar mejor string y comilla normales 
+	char ejemplo2 = 'B';   //aqui ya no hay error de sintaxis 
+
+	//6 El ejercicio 6 esta mal porque se esta usando int (que significa entero) y hay un decimal, no se esta usando la funcion correcta que seria float o double 
+	int ejemplo3 = 10; // si se quiere mantener el valor sería 
+	double numero = 10.5;
+
+	//7 El ejercicio 7 esta mal porque se estan usando comillas simples 
+	string ejemplo4 = "Juan";
+
+	//8 El ejercicio 8 esta mal porque se quiere asignar int a una constante con punto decimal, debe de ser con float o doblue
+	const float pi = 3.14f;
+
+	//9 Este noveno ejercicio este mal porque no tiene con que sumarlo podria ser otro numero u otra variable con un valor asignado  
+	int suma = 5 +6 ;
+
+	//10 Este esta mal porque en la segunda parte no incluye un punto y coma
+	int ejemplo5;
+	ejemplo5 = 10;
+	
+	// 11 este ejercicio 11 esta mal porque int usa valores enteros, debe de ser 10, o si se quiere poner "díez" se deberia usar string 
+	int ejemplo6= 10; 
+	//o tambien
+	string ejemplo7 = "diez"; 
+	
+	// 12 Este ejercicio 12 esta mal se usa "." para separar decimal
+	float altura = 1.75; 
+
+	// 13 Este ejercicio esta mal poruqe se usan " y no simples '
+	char inicial = 'J'; 
+
+	// 15 El ejercicio 15 esta mal porque no lleva comillas (")
+	string apellido2= "Juan";
+
+	//16 Este ejercicio 16 esta mal porque falta la segunda variable o caracter 
+	int resultado = 5 * ejemplo6; 
+
+	// 18 Ejercicio 18 esta mal pues falta el ; al final 
+	int edad = 25; 
+
+    // 19 Este ejercicio esta bien porque se puede poner la f para indicar que es un float
+	float peso = 70.5f;
+	
+	//20 Este le hace falta el punto y coma al final 
+	int suma1= 10 + 20; 
+
+	
+
+}
+
+
+	
+
