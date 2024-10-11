@@ -114,7 +114,7 @@ int main()
         cout << boolalpha; 
         cout << (a > b) << endl; 
         cout << (a < b) << endl; 
-
+        cout << ((a + 15) > b); 
 
 
 
