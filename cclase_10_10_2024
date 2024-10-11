@@ -110,6 +110,9 @@ int main()
 	y -= 1.2;  // 4 
 
 	cout << " resta 1 solo operador o un operando " << y << endl;
+cout << (a > b) << endl; 
+cout << (a < b) << endl; 
+
 
 
 
