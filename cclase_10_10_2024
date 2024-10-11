@@ -1,0 +1,119 @@
+// ConsoleApplication1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+#include <iomanip>
+using namespace std; 
+int main()
+{
+	//Enteros 
+	int a = 10;
+	int b = 20;
+	int c;
+
+	// Flotantes 
+	float x = 15.5;
+	float y = 5.2;
+	float z;
+
+	// 1. Adición 
+	c = a + b;
+	z = x + y;
+	cout << "Operación adición enteros "
+		<< c << endl;
+	cout << "Operación adición decimales "
+		<< z << endl;
+	// 2. sustracción
+	c = a - b;
+	z = x - y;
+	cout << "Operacipon substracción  enteros " << c << endl;
+	cout << "Operacion substracción decimales" << z << endl;
+
+	//3 Multiplicación 
+	c = a * b;
+	z = x * y;
+	cout << "Operacipon multiplicación enteros " << c << endl;
+	cout << "Operacipon multiplicación decimal  " << c << endl;
+
+	//4 Division
+	c = b / a;
+	z = x / y;
+	cout << "Operacipon division enteros " << c << endl;
+	cout << "Operacipon division decimal " << c << endl;
+
+	//5 Residuo 
+	c = b % a;
+	cout << "Operacipon resiudo ( division)  entero  " << c << endl;
+
+	//6, Operadpres operaciones mixtas 
+	z = a + x;
+	cout << "Operacipon mixta suma " << z << endl;
+	z = b - y;
+	cout << "Operacipon mixta resta " << z << endl;
+	z = a * y;
+	cout << "Operacipon mixta  resta " << z << endl;
+	z = b / x;
+	cout << "Operacipon mixta division  " << z << endl;
+	z = (a + b) * x / y;
+	cout << "Operacipon mixta  " << z << endl;
+
+	//7 Mas ejemplos con flotantes 
+	z = x + 10.3;
+	z = y * 2.5;
+	z = x / 2.0;
+	z = y - 3.2;
+
+	//8 Combinación de nuúmeros enteros y 
+	z = a + x - b / 2.0 + y * 1.5;
+	cout << "combinación de numeros enteross " << z << endl;
+
+
+	//9 Combinaciones mas complejas 
+	z = (a + x) * (b - y) / (a * y);
+	cout << "Operaciones mas complejas  " << z << endl;
+
+	//10 Operaciones aritmeticas de tipo mixto 
+	double d = 7.4;
+	z = a + d;
+	cout << "Operaciones mas complejas suma " << z << endl;
+	z = b - d;
+	cout << "Operaciones mas complejas resta  " << z << endl;
+	z = d * y;
+	cout << "Operaciones mas complejas multiplicación  " << z << endl;
+	z = d / x;
+	cout << "Operaciones mas complejas división  " << z << endl;
+
+	//11 Números negativos 
+	int negInt = -25;
+	float negFloat = -12.3;
+	c = a + negInt;
+	c = b + negInt;
+	z = negFloat - y;
+	z = negInt * b;
+	double w = (1.0 / 3) * 3.;
+	cout << "El ejemplo final :  " << w << endl;
+	cout << fixed;
+	cout << setprecision(5); 
+	cout << "El ejemplo final 2 :  " << w << endl;
+
+	//12 Operaciónes unitarias 
+	
+
+	a++; //a= a+1
+	cout << " Suma unitaria " << a << endl; 
+
+	b--; // b=b-1 
+	cout << " resta unitaria " << b << endl;
+
+	x += 2.5; //18 
+	cout << " suma 1 solo operador o un operando " << x << endl;
+	y -= 1.2;  // 4 
+
+	cout << " resta 1 solo operador o un operando " << y << endl;
+
+
+
+
+}
+
+
