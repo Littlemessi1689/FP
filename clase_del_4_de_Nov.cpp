@@ -20,20 +20,7 @@ int main()
 
 	} while (opcion1 != 6);
 
-	cout << endl; 
-
-
-
-	// parctica E 
-
-	//1.21 do while Ciclo do while 
-	string salir;
-	do 
-	{
-		cout << "Desea salir del menu? " << endl; 
-		cin >> salir; 
-	}while (salir != "SI");
-
+	
 
 
 }
