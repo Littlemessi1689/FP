@@ -25,17 +25,25 @@ int main()
 
     // Ejercicio 1 Solicitar un numero y multiplicar por 10 
 
-    int numero1;
-
-
-    do {
-        cout << "Introduce un numero a multiplicar por 10 o presiona 0 para salir : ";
-        cin >> numero1;
-        if (numero1 != 0) {
-            cout << "El numero por 10 es : " << numero1 * 10 << endl;
+    vector<int> v;
+   
+    int n = -1;
+    while (n != 0)
+    {
+        cout << "Dame un numero ";
+        cin >> n;
+        if (n == 0)
+        {
+            break;
         }
+        v.push_back(n * 10);
 
-    } while (numero1 != 0);
+    }
+    for (int elemento : v) {
+        cout << elemento << " ; ";
+
+    }
+    cout << endl;
 
     // ejercicio 2 mostrar el elemento mayor de un arreglo 
     int valormayor = arreglo[0];
@@ -130,7 +138,7 @@ int main()
             tercerMayor3 = segundoMayor3;
             segundoMayor3 = arreglo2[i];
         }
-        if (arreglo2[i] > tercerMayor3 and arreglo2[i] != segundoMayor3) {
+        if (arreglo2[i] > tercerMayor3 and arreglo2[i] != segundoMayor3 and arreglo2[i]< segundoMayor3) {
             tercerMayor3 = arreglo[i];
         }
 
@@ -167,7 +175,7 @@ int main()
     cout << "El segundo menor es : " << segundomenor << endl;
 
     // Programa que invierta los valores de un arreglo 
-    cout << "Arreglo original : "; 
+    cout << "Arreglo original : ";
     const int TAMANO4 = 10;
     int arreglo4[TAMANO4];
     // 1 arreglo de 10 elementos aleatorios
@@ -181,14 +189,10 @@ int main()
         cout << elemento << " ; ";
     }
     cout << endl;
-    cout << "Arreglo invertido : "; 
+    cout << "Arreglo invertido : ";
     for (int i = 9; i >= 0; i--)
     {
-        cout << arreglo4[i] << " ; "; 
+        cout << arreglo4[i] << " ; ";
     }
 
 }
-
-
-
-
